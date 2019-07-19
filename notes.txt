@@ -1,0 +1,110 @@
+Mountain.create(name: 'Washington', elevation: '6,288')
+Mountain.create(name: 'Adams', elevation: '5,774')
+Mountain.create(name: 'Jefferson', elevation: '5,712')
+Mountain.create(name: 'Monroe', elevation: '5,384')
+Mountain.create(name: 'Madison', elevation: '5,367')
+Mountain.create(name: 'Lafayette', elevation: '5,260')
+Mountain.create(name: 'Lincoln', elevation: '5,089')
+Mountain.create(name: 'South Twin', elevation: '4,902')
+Mountain.create(name: 'Carter Dome', elevation: '4,832')
+Mountain.create(name: 'Moosilauke', elevation: '4,802')
+Mountain.create(name: 'Eisenhower', elevation: '4,780')
+Mountain.create(name: 'North Twin', elevation: '4,761')
+Mountain.create(name: 'Carrigain', elevation: '4,700')
+Mountain.create(name: 'Bond', elevation: '4,698')
+Mountain.create(name: 'Middle Carter', elevation: '4,610')
+Mountain.create(name: 'West Bond', elevation: '4,540')
+Mountain.create(name: 'Garfield', elevation: '4,500')
+Mountain.create(name: 'Liberty', elevation: '4,459')
+Mountain.create(name: 'South Carter', elevation: '4,430')
+Mountain.create(name: 'Wildcat, A peak', elevation: '4,422')
+Mountain.create(name: 'Hancock', elevation: '4,420')
+Mountain.create(name: 'South Kinsman', elevation: '4,358')
+Mountain.create(name: 'Field', elevation: '4,340')
+Mountain.create(name: 'Osceola', elevation: '4,340')
+Mountain.create(name: 'Flume', elevation: '4,328')
+Mountain.create(name: 'South Hancock', elevation: '4,319')
+Mountain.create(name: 'Pierce', elevation: '4,310')
+Mountain.create(name: 'North Kinsman', elevation: '4,293')
+Mountain.create(name: 'Willey', elevation: '4,285')
+Mountain.create(name: 'Bondcliff', elevation: '4,265')
+Mountain.create(name: 'Zealand', elevation: '4,260')
+Mountain.create(name: 'North Tripyramid', elevation: '4,180')
+Mountain.create(name: 'Cabot', elevation: '4,170')
+Mountain.create(name: 'East Osceola', elevation: '4,136')
+Mountain.create(name: 'Middle Tripyramid', elevation: '4,180')
+Mountain.create(name: 'Cannon', elevation: '4,100')
+Mountain.create(name: 'Hale', elevation: '4,054')
+Mountain.create(name: 'Jackson', elevation: '4,052')
+Mountain.create(name: 'Tom', elevation: '4,051')
+Mountain.create(name: 'Wildcat, D peak', elevation: '4,050')
+Mountain.create(name: 'Moriah', elevation: '4,059')
+Mountain.create(name: 'Passaconaway', elevation: '4,039')
+Mountain.create(name: 'Owl's Head', elevation: '4,025')
+Mountain.create(name: 'Galehead', elevation: '4,024')
+Mountain.create(name: 'Whiteface', elevation: '4,020')
+Mountain.create(name: 'Waumbek', elevation: '4,006')
+Mountain.create(name: 'Isolation', elevation: '4,004')
+Mountain.create(name: 'Tecumseh', elevation: '4,003')
+
+
+
+
+
+
+
+1. create a mountain model
+2. create routes
+3. create controller - this controller needs to be an api v1 controller
+4. create a view in an erb file with an empty div.
+5. create a react component that displays anything
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. create users, hike membership and hikes
+
+2. a user can create a hike. and a user can view details for hike.
+
+make it with just name and description of hike.
