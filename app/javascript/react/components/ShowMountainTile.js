@@ -8,6 +8,8 @@ const ShowMountainTile = props => {
   return(
     <div>
       <h1>Name: {name} | Elevation in Feet: {elevation}</h1>
+      <h5>Elevation in Feet: {elevation}</h5>
+
     </div>
 
   )
