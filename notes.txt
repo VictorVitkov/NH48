@@ -53,6 +53,46 @@ Mountain.create(name: 'Tecumseh', elevation: '4,003')
 
 
 
+1. you will have to define a route to the show page in
+   app/javascript/react/components/App.js
+
+2. add a link to Mountain Tile
+
+3. create a new migration, add columns for the additional info you want on the
+   page. visit the 4,000 footer website for inspiration
+
+4. get the info to display on the show page.
+
+5. Start thinking about styling. How to style the show page? How to style the
+   mountain list on the index page? Perhaps a grid of 6x8 tiles with a photo?
+
+   Washington
+   Image
+   Elevation
+
+6. You will 
+
+7.
+
+8.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. create a mountain model
 2. create routes
 3. create controller - this controller needs to be an api v1 controller
