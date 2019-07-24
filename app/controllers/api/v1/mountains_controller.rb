@@ -8,6 +8,8 @@ class Api::V1::MountainsController < ApplicationController
 
   def show
     mountain = Mountain.find(params["id"])
+    payload = {"mountain": mountain}
+    render json: payload
   end
 
   private

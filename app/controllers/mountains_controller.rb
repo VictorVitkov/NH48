@@ -3,6 +3,10 @@ class MountainsController < ApplicationController
     @mountains = Mountain.all
   end
 
+  def show
+    @mountain = Mountain.find(params[:id])
+  end
+
   private
 
   def mountain_params
