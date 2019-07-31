@@ -5,8 +5,8 @@ class CreateHikes < ActiveRecord::Migration[5.2]
       t.date :date, null: false
       t.text :description, null: false
 
-      t.belongs_to :users
-      t.belongs_to :mountains
+      t.belongs_to :user
+      t.belongs_to :mountain
 
       t.timestamps null: false
     end
