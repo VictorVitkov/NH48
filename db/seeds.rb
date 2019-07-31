@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Mountain.create(name: 'Washington', elevation: 6288)
+Mountain.create(name: 'Mt. Washington', elevation: 6288)
 Mountain.create(name: 'Adams', elevation: 5774)
 Mountain.create(name: 'Jefferson', elevation: 5712)
 Mountain.create(name: 'Monroe', elevation: 5384)
