@@ -1,0 +1,68 @@
+.top-bar {
+  background-color: #339AF0;
+  height: 50px;
+  vertical-align: middle;
+}
+
+i {
+  vertical-align: middle;
+}
+
+.NH48-logo {
+  font-size: 45px;
+  vertical-align: middle;
+}
+
+.top-bar-section ul li {
+  background-color: #f08933;
+  height: 50px;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background-color: #f08933;
+  height: 50px;
+}
+
+.container {
+  position: relative;
+  max-width: 100%; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  display: inline-block;
+  position: absolute; /* Position the background text */
+  bottom: 29%; /* At the bottom. Use top:0 to append it to the top */
+  left: 25%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: white;
+  text-align: center;
+  width: 50%; /* Full width */
+  padding: 0px; /* Some padding */
+  border-radius: 25px;
+}
+
+.container .content h1 {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
+.container .content p {
+  color: white;
+  font-size: 45px;
+  font-style: italic;
+}
+
+.container .content button {
+  background-color: #339AF0;
+  color: white;
+}
+
+.container .content button:hover {
+  background-color: black;
+}
+
+.container .content button a {
+  color: white;
+}

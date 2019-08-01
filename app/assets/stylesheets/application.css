@@ -16,21 +16,7 @@
 
  */
 
-.top-bar {
-  background-color: #339AF0;
 
-  a {
-    background-color: #f08933;
-  }
-}
-
-.top-bar-section ul li {
-  background-color: #f08933;
-}
-
-.top-bar-section li:not(.has-form) a:not(.button) {
-  background-color: #f08933;
-}
 
 /* .right a {
   display: inline-block;
@@ -49,4 +35,4 @@
    cursor: pointer;
    background-color: #f9aa33;
    color: #ffffff;
-} */ 
+} */

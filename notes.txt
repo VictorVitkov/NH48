@@ -70,7 +70,7 @@ Mountain.create(name: 'Tecumseh', elevation: '4,003')
    Image
    Elevation
 
-6. You will 
+6. You will
 
 7.
 
@@ -128,6 +128,17 @@ Mountain.create(name: 'Tecumseh', elevation: '4,003')
 
 
 
+<div class="backGroundImage">
+  <img src=<%= asset_path("5MadisonCropped.jpg") %> alt="" style="width:1500px; height=600px">
+</div>
+
+
+
+
+<p>
+  <li><%= link_to 'Sign Up', new_user_registration_path %></li>
+  <li><%= link_to 'Sign In', new_user_session_path %></li>
+</p>
 
 
 

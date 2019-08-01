@@ -1,4 +1,9 @@
-<p>
-  Modify me in `app/views/homes/index.html.erb` or change the root directive in
-  `config/routes.rb`
-</p>
+<div class="container">
+  <img src=<%= asset_path("5MadisonCropped.jpg") %> alt="" style="width:1500px; height=600px">
+  <div class="content">
+    <h1>NH48</h1>
+    <p>Your guide to hiking the Whites</p>
+    <button type="button" value="Sign In"><%= link_to 'Sign In', new_user_session_path %></button>
+    <button type="button" value="Sign Up"><%= link_to 'Sign Up', new_user_registration_path %></button>
+  </div>
+</div>
