@@ -39,6 +39,9 @@ class MountainsContainer extends React.Component {
             id={mountain.id}
             name={mountain.name}
             elevation={mountain.elevation}
+            description={mountain.description}
+            distance={mountain.distance}
+            directions={mountain.directions}
           />
       )
     })

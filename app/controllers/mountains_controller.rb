@@ -1,6 +1,6 @@
 class MountainsController < ApplicationController
   def index
-    @mountains = Mountain.all
+    @mountains = Mountain.order(elevation: :desc)
   end
 
   def show

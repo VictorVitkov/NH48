@@ -14,7 +14,6 @@ class ShowMountainContainer extends React.Component {
     fetch(`/api/v1/mountains/${this.props.match.params.id}`)
     .then(response => response.json())
     .then(response => {
-      debugger
       this.setState({ selectedMountain: response.mountain })
     })
   }
@@ -27,6 +26,9 @@ class ShowMountainContainer extends React.Component {
           key={this.state.selectedMountain.id}
           name={this.state.selectedMountain.name}
           elevation={this.state.selectedMountain.elevation}
+          description={this.state.selectedMountain.description}
+          distance={this.state.selectedMountain.distance}
+          directions={this.state.selectedMountain.directions}
         />
       </div>
     )

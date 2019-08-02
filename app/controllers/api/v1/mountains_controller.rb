@@ -2,7 +2,8 @@ class Api::V1::MountainsController < ApplicationController
   protect_from_forgery unless: -> { request.format.json? }
 
   def index
-    mountains = Mountain.all
+    mountains = Mountain.order(elevation: :desc)
+
     render json: mountains
   end
 
