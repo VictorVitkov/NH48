@@ -159,3 +159,7 @@ Mountain.create(name: 'Tecumseh', elevation: '4,003')
 2. a user can create a hike. and a user can view details for hike.
 
 make it with just name and description of hike.
+
+
+
+"The map below shows how to get to the summit of Mount Washington, as well as the Lakes of the Clouds Hut and Lakes via the Ammonoosuc Ravine Trail with the Jewell Trail as a loop hike.\n\nBegin at the Marshfield Station Parking Lot off Base Road in Pinkhams Grant, New Hampshire on the Ammonoosuc Raving Trail. Follow for 1.0 miles until you reach a junction. Left will take you back to the parking lot, and right / straight will continue up the trail. Continue straight / right up the Ammonoosuc Ravine Trail for 2.1 miles until you reach the Lakes of the Clouds Hut and lakes. From the hut, take the Crawford Trail towards the left for 1.5 miles until you reach the summit of Mount Washington. You will come to a junction 0.9 miles after the hut with the West Side Trail and Davis Path, but stay on the Crawford Path to reach the summit.\n\nTo descend down the Jewell Trail, begin on the Great Gulf Trail from the summit. Hike roughly 0.3 miles until you reach the Jewell Trail junction. Continue down for 0.5 miles until you reach a junction with the West Side Trail. Continue straight / right for 0.4 miles until you reach another junction with the Gulfside Trail. Stay left to continue down the Jewell Trail for 3.7 miles until you reach the parking lot."

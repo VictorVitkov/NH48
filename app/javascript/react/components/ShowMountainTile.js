@@ -14,7 +14,10 @@ const ShowMountainTile = props => {
       <h3>Elevation in Feet: {elevation}</h3>
       <p>{description}</p>
       <h3>{distance}</h3>
-      <p>{directions}</p>
+
+      <div className="display-linebreak">
+        <p>{directions}</p>
+      </div>
     </div>
 
   )
