@@ -29,6 +29,7 @@ class ShowMountainContainer extends React.Component {
           description={this.state.selectedMountain.description}
           distance={this.state.selectedMountain.distance}
           directions={this.state.selectedMountain.directions}
+          image={this.state.selectedMountain.image}
         />
       </div>
     )

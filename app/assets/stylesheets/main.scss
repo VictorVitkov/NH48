@@ -48,10 +48,15 @@ i {
   font-size: 100px;
   font-weight: bold;
 }
+
 .container .content p {
   color: white;
   font-size: 45px;
   font-style: italic;
+}
+
+.container .content h2 {
+  color: white;
 }
 
 .container .content button {
@@ -69,4 +74,107 @@ i {
 
 .display-linebreak {
   white-space: pre-line;
+  display: inline-block;
+  border: solid;
+  border-color: black;
+  border-width: medium;
+  width: 90%;
+  margin: 10px;
+  left: 50%;
+  background: #339AF0;
+  color: white;
+
+  h3 {
+    color: white;
+  }
+}
+
+.img {
+  width: 100%;
+}
+
+.tileImage {
+  width: 100%;
+}
+
+.card {
+  display: block;
+}
+
+// .mountainWrapper {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+// }
+
+.mountainWrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mountainTile {
+  max-width: 450px;
+  border: solid;
+  background: #339AF0;
+}
+
+.mountainTile:hover {
+  border-color: #F08933;
+  background: black;
+
+  .mountainInfo {
+    background: black;
+  }
+
+}
+
+.mountainInfo {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  background: #339AF0;
+  color: white;
+}
+
+.infoText {
+  margin-left: 10px;
+  h3 {
+    color: white;
+  }
+  h4 {
+    color: white;
+  }
+}
+
+.outer-div {
+  padding: 10px;
+  text-align: center;
+}
+
+.text {
+  display: inline-block;
+  text-align: center;
+  border: solid;
+  border-width: medium;
+  width: 50%;
+  margin: 0 auto;
+  left: 50%;
+  background: #F08933;
+
+  h3 {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+  }
+
+  p {
+    color: white;
+    font-size: 23px;
+  }
+
 }
