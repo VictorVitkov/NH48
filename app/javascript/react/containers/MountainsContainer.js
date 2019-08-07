@@ -42,6 +42,7 @@ class MountainsContainer extends React.Component {
             description={mountain.description}
             distance={mountain.distance}
             directions={mountain.directions}
+            image={mountain.image}
           />
       )
     })
@@ -49,12 +50,15 @@ class MountainsContainer extends React.Component {
     return(
       <div>
 
-        <h1>NH48</h1>
+        <div className="outer-div">
+          <div className="text">
+            <h3>New Hampshire's 4,000 footers</h3>
+            <p>Click on a mountain below for more info</p>
+          </div>
+        </div>
 
-        <div>
-          <ol>
-            {mountains}
-          </ol>
+        <div className="mountainWrapper">
+          {mountains}
         </div>
 
       </div>
