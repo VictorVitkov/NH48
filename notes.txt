@@ -47,6 +47,8 @@ Mountain.create(name: 'Waumbek', elevation: '4,006')
 Mountain.create(name: 'Isolation', elevation: '4,004')
 Mountain.create(name: 'Tecumseh', elevation: '4,003')
 
+Hike.create(name: 'Hiking the Tripyramids with my Dad', date: '4/23/2017', description: 'Hike up the North slide and it was totally epic. Gorgeous views of Tecumseh and Mt. Washington. Everything was going great until we lost the trail after summiting the South Peak! Got lost in the woods and didn''t get back to the car until 10pm!', user_id: '1')
+
 
 
 

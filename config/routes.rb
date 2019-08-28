@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   resources :mountains, only: [:index, :show]
   resources :homes, only: [:index]
+  resources :hikes, only: [:show, :new]
 
   namespace :api do
     namespace :v1 do
